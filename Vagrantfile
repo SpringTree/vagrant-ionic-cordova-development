@@ -76,6 +76,6 @@ Vagrant.configure(2) do |config|
     # install legacy node 0.12 as per: https://nodesource.com/blog/nodejs-v012-iojs-and-the-nodesource-linux-repositories
     curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
     sudo apt-get install -y nodejs
-    sudo npm i -g bower ionic cordova yo generator-ionic-gulp
+    sudo npm i -g gulp grunt-cli bower ionic cordova yo generator-ionic-gulp
   SHELL
 end
